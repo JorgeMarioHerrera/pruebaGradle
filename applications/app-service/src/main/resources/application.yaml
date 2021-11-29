@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "NameProject"
+  devtools:
+    add-properties: false
+  profiles:
+    include: null
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/gradle"
+    username: "postgres"
+    password: "postgres"
+    driverClassName: "org.postgresql.Driver"
+  jpa:
+    databasePlatform: "org.hibernate.dialect.PostgreSQLDialect"
